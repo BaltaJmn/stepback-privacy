@@ -1,0 +1,17 @@
+:root { --paper: #f5f0e3; --sheet: #fffdf5; --ink: #1c243d; --soft: #5d6377; --red: #c73329; --rule: #1c243d24; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 22px 80px; }
+h1, h2 { font-family: "New York", "Iowan Old Style", Georgia, serif; line-height: 1.15; }
+h1 { font-size: 44px; margin: 18px 0 8px; }
+h2 { font-size: 24px; margin: 40px 0 8px; }
+p.lead { font-size: 20px; color: var(--soft); margin-top: 0; }
+.label { font: 600 12px/1 ui-monospace, Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); }
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 22px; margin: 18px 0; box-shadow: 0 2px 3px #1c243d0f; }
+.sheet li { margin: 6px 0; }
+ol.sections { padding-left: 22px; }
+ol.sections li::marker { color: var(--red); font: 700 15px ui-monospace, Menlo, monospace; }
+a { color: var(--ink); text-decoration-color: var(--red); text-underline-offset: 3px; }
+img.icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 3px 10px #1c243d33; }
+footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--soft); }
+em.es { color: var(--soft); display: block; font-size: 15px; }
