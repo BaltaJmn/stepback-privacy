@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://stepback.baltajmn.dev/sitemap.xml
